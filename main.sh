@@ -1,5 +1,4 @@
-echo Enter Your Username
-read username
+username=$(whoami)
 
 if [ -d /home/$username ]
 then
